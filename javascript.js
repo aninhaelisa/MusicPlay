@@ -28,7 +28,7 @@ function nextSong() {
   if (current >= urls.length) {
     current = 0;
   }
-  playSong();
+  playShow();
 }
 
 audioPlayer.addEventListener('ended', nextSong, false);
